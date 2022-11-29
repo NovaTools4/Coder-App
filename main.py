@@ -139,8 +139,7 @@ class Main(MDApp):
 								title = "Error",
 								text = '''
 Oops, something went wrong.
-Please try again later
-								''',
+Please try again later.''',
 								buttons =[
 									MDRectangleFlatButton(
 										text="Ok", on_release = self.neat_dialog
